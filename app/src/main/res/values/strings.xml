@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">EVENTOS</string>
+    <string name="eventos">EVENTOS</string>
+    <string name="start_from_here">START FROM HERE</string>
+    <string name="e">E</string>
+    <string name="first_username">USERNAME:</string>
+    <string name="second_name">SECOND NAME:</string>
+    <string name="email">EMAIL:</string>
+    <string name="confirm_password">CONFIRM PASSWORD:</string>
+    <string name="signup">CREATE ACCOUNT</string>
+    <string name="back">BACK</string>
+    <string name="first_name">FIRST NAME:</string>
+    <string name="add_a_profile_picture">ADD A PROFILE PICTURE</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="home">HOME</string>
+    <string name="settings">SETTINGS</string>
+    <string name="offers">OFFERS</string>
+    <string name="contact_us">CONTACT US</string>
+    <string name="about_us">ABOUT US</string>
+    <string name="exit">Exit</string>
+    <string name="open" />
+    <string name="close" />
+    <string name="welcome">WELCOME</string>
+    <string name="sign_in_sign_up">SIGN IN/SIGN UP</string>
+
+    <!-- this both will be required in login process-->
+    <string name="facebook_app_id">312010906579694</string>
+    <string name="fb_login_protocol_scheme">fb312010906579694</string>
+    <string name="title_activity_specialized_artists_tabbed">SpecializedArtistsTabbedActivity
+    </string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="title_activity_speacialized_artist_tab">SpeacializedArtistTabActivity</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_hotels_and_special_places_tab">HotelsAndSpecialPlacesTabActivity
+    </string>
+    <string name="title_activity_entertainment_tab">EntertainmentTabActivity</string>
+    <string name="title_activity_other_services_tab">OtherServicesTabActivity</string>
+
+
+</resources>

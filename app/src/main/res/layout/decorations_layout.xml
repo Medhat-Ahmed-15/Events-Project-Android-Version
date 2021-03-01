@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/fragment_gradient"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:fontFamily="@font/berkshire"
+        android:text="What  are  you  decortaing  today ?"
+        android:textSize="40sp"
+        android:layout_marginBottom="550dp"
+        android:translationY="50dp"
+        android:layout_marginLeft="50dp"
+        android:translationX="15dp"
+        android:textColor="@color/addEventColorButton"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:ignore="MissingConstraints" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:translationY="200dp"
+        tools:layout_editor_absoluteY="225dp">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/graduation_button"
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/graduation_button_default"
+                    android:fontFamily="@font/leckerli_one"
+                    android:text="Graduation"
+                    android:textSize="30sp" />
+
+
+                <Button
+                    android:id="@+id/birthday_button"
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/birthday_button_default"
+                    android:fontFamily="@font/leckerli_one"
+                    android:text="Birthday"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/wedding_button"
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/wedding_button_default"
+                    android:fontFamily="@font/leckerli_one"
+                    android:text="Wedding"
+                    android:textSize="30sp" />
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:fontFamily="@font/berkshire"
+        android:text="Swip  to  show  recommended  decoration  shops"
+        android:textSize="25sp"
+        android:layout_marginBottom="550dp"
+        android:translationY="300dp"
+        android:layout_marginLeft="50dp"
+        android:translationX="15dp"
+        android:textColor="@color/addEventColorButton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginBottom="550dp"
+        android:translationY="350dp"
+        android:id="@+id/recomendedDecorations_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        tools:ignore="MissingConstraints">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

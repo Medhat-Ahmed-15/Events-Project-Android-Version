@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <!--FOR NORMAL/LIGHT MODE-->
+
+    <color name="backgroundColor">#FCFCFC</color>
+    <color name="addEventColorButton">#000000</color>
+    <color name="customizeEventColorButton">#000000</color>
+    <color name="manageEventColorButton">#FFFFFF</color>
+
+</resources>

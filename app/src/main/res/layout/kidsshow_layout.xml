@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:background="@drawable/gradient_background1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp">
+        <LinearLayout
+
+            android:background="#f2f2f2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+            <androidx.recyclerview.widget.RecyclerView
+
+                android:id="@+id/kidsShow_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView
+        >
+
+
+</RelativeLayout>

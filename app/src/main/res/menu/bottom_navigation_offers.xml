@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+
+        android:title="Hotels"
+        android:id="@+id/hotelsOffer"
+        android:icon="@drawable/hotels_icon"/>
+
+    <item
+
+        android:title="BeachCLubs"
+        android:id="@+id/beachClubsOffer"
+        android:icon="@drawable/beachclubs_icon"
+        />
+
+  <item
+
+      android:title="Hairdresser"
+      android:id="@+id/hairdresserOffer"
+      android:icon="@drawable/hairdresser_icon"
+      />
+
+
+    <item
+
+        android:title="Makeup Artist"
+        android:id="@+id/makeupArtistOffer"
+        android:icon="@drawable/makeup_icon2"
+        />
+  <!--app:showAsAction="always"-->
+
+
+
+</menu>

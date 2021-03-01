@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.medhat_ahmed">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Offers"></activity>
+        <activity android:name=".HeaderNavigation" />
+        <activity android:name=".UserProfile" />
+        <activity android:name=".DecorationsThreeButtons" />
+        <activity
+            android:name=".OtherServicesTabActivity"
+            android:label="@string/title_activity_other_services_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".BandsShowDetails" />
+        <activity
+            android:name=".EntertainmentTabActivity"
+            android:label="@string/title_activity_entertainment_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ShowBeachClubsDetails" />
+        <activity android:name=".HotelHallsActivity" />
+        <activity android:name=".ShowHotelDetails" />
+        <activity
+            android:name=".HotelsAndSpecialPlacesTabActivity"
+            android:label="@string/title_activity_hotels_and_special_places_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ShowPhotographerDetails" />
+        <activity android:name=".ShowMakeupArtistDetails" />
+        <activity android:name=".ShowHairdresserDetails" />
+        <activity
+            android:name=".SpeacializedArtistTabActivity"
+            android:label="@string/title_activity_speacialized_artist_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MarketingAgenciesAndSponsorsActivity" />
+        <activity android:name=".ManageEvents" />
+
+        <receiver android:name="com.allyants.notifyme.NotificationPublisher" />
+        <receiver android:name="com.allyants.notifyme.BootNotifyMe">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".Favourites" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AAIzaSyCVKP-80ncadM3TeIc3uM9Euezkm9PgpcM" />
+
+        <activity android:name=".AddEvent" />
+        <activity android:name=".KidsShowDetails" />
+        <activity android:name=".CheckEvents" />
+        <activity android:name=".Settings" />
+        <activity android:name=".LoginPage" />
+        <activity android:name=".SignUpPage" />
+        <activity android:name=".DashBoard" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- this is the data that will include the activity of facebook login activity -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".AlertReceiver" />
+    </application>
+
+</manifest>
